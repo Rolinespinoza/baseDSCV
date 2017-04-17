@@ -5,6 +5,8 @@
  */
 package test;
 
+import util.Conexion;
+
 /**
  *
  * @author UPEU
@@ -15,7 +17,16 @@ public class Test {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        conex();
     }
-    
+    public static void conex ()
+    {
+        if (Conexion.getConexion()!=null) {
+            System.out.println("SI");
+        }
+        else 
+        {
+            System.out.println("NO");
+        }
+    }
 }
