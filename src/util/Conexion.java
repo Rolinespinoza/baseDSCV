@@ -17,7 +17,7 @@ public class Conexion {
 
  private static final String  DRIVER= "com.mysql.jdbc.Driver";
 
- private static final String USER=" root";
+ private static final String USER="root";
 
  private static final String PASS="root";
  
